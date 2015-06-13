@@ -10,7 +10,7 @@ deploy:
         hostname: toonverbeek.com
     - mktemp:
         envvar: PRIVATEKEY_PATH
-    - createfile:
+    - create-file:
         name: write key
         filename: $PRIVATEKEY_PATH
         content: $SSH_PRIVATE
