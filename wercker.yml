@@ -1,0 +1,24 @@
+box: phusion/baseimage
+build:
+  steps:
+    - arjen/hugo-build:
+        theme: redlounge
+        flags: --buildDrafts=true
+deploy:
+  steps:
+    - add-to-known_hosts:
+        hostname: toonverbeek.com
+    - mktemp:
+        envvar: PRIVATEKEY_PATH
+    - createfile:
+        name: write key
+        filename: $PRIVATEKEY_PATH
+        content: $SSH_PRIVATE
+        overwrite: true
+    - script:
+        name: transfer app
+        code: |-
+         pwd
+         ls -la
+         scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@toonverbeek.com:/var/www/toonverbeek.com/blog/
+          
