@@ -20,5 +20,6 @@ deploy:
         code: |-
          pwd
          ls -la
+         cat ~/.ssh/known_hosts
          scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@toonverbeek.com:/var/www/toonverbeek.com/blog/
           

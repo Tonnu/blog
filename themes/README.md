@@ -98,7 +98,7 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [angels-ladder](https://github.com/tanksuzuki/angels-ladder)
-![tanksuzuki/angels-ladder](https://raw.githubusercontent.com/tanksuzuki/angels-ladder/7692100aa3e24e9b41555b0d2fa7c8a0d81f040d/images/tn.png)
+![tanksuzuki/angels-ladder](https://raw.githubusercontent.com/tanksuzuki/angels-ladder/fe086ecf531fbc67306f57127cc44e7ad423d1a5/images/tn.png)
 
 ---
 
@@ -113,7 +113,17 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [hugo-theme-casper](https://github.com/vjeantet/hugo-theme-casper)
-![vjeantet/hugo-theme-casper](https://raw.githubusercontent.com/vjeantet/hugo-theme-casper/eb68e25ac77909feba580991fe65880bec48012a/images/tn.png)
+![vjeantet/hugo-theme-casper](https://raw.githubusercontent.com/vjeantet/hugo-theme-casper/0e2a2a3fc1efee2c95286cb04d5e60d29683e330/images/tn.png)
+
+---
+
+## [hugo-theme-crisp](https://github.com/Zenithar/hugo-theme-crisp)
+![Zenithar/hugo-theme-crisp](https://raw.githubusercontent.com/Zenithar/hugo-theme-crisp/f178ba762cc3b1fd7324fbfbb80a0ccbc95da55f/images/tn.png)
+
+---
+
+## [hugo-freelancer-theme](https://github.com/digitalcraftsman/hugo-freelancer-theme)
+![digitalcraftsman/hugo-freelancer-theme](https://raw.githubusercontent.com/digitalcraftsman/hugo-freelancer-theme/f86e46c7d8f1506e547cb8ee99c3515b90fbbf95/images/tn.png)
 
 ---
 
@@ -163,7 +173,7 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [hurock](https://github.com/TiTi/hurock)
-![TiTi/hurock](https://raw.githubusercontent.com/TiTi/hurock/7fd68cb4e15c2cdeae4e02543eeda70ffbda402a/images/tn.png)
+![TiTi/hurock](https://raw.githubusercontent.com/TiTi/hurock/6fdbbaae038ac4568c78e4704d0819f73ec3616b/images/tn.png)
 
 ---
 
@@ -173,17 +183,17 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [hyde-x](https://github.com/zyro/hyde-x)
-![zyro/hyde-x](https://raw.githubusercontent.com/zyro/hyde-x/e217f92f97b85809caa6cdd4e9f6762aab9049e8/images/tn.png)
+![zyro/hyde-x](https://raw.githubusercontent.com/zyro/hyde-x/29f88edc454b8744e85cbe1549eb5b7a7c9d1bc4/images/tn.png)
 
 ---
 
 ## [hugo-journal](https://github.com/mpas/hugo-journal)
-*image not available* :hankey:
+![mpas/hugo-journal](https://raw.githubusercontent.com/mpas/hugo-journal/ecf49cbb14a4fa746ed86fa5f1e7959076aca5b1/images/tn.png)
 
 ---
 
 ## [landing-page-hugo](https://github.com/crakjie/landing-page-hugo)
-![crakjie/landing-page-hugo](https://raw.githubusercontent.com/crakjie/landing-page-hugo/62053b71b01272a78c1671e58c40caeffd8b4a66/images/tn.png)
+![crakjie/landing-page-hugo](https://raw.githubusercontent.com/crakjie/landing-page-hugo/dc03a9d70eaec5704649987e5ff3b73c41dd6754/images/tn.png)
 
 ---
 
@@ -198,12 +208,12 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [material-design](https://github.com/pdevty/material-design)
-![pdevty/material-design](https://raw.githubusercontent.com/pdevty/material-design/37f075e929f10b944962c12bf4e21d3b39b5db45/images/tn.png)
+![pdevty/material-design](https://raw.githubusercontent.com/pdevty/material-design/3a9d77ad467295f55caa67281be92d2369ae5df7/images/tn.png)
 
 ---
 
 ## [nofancy](https://github.com/gizak/nofancy)
-![gizak/nofancy](https://raw.githubusercontent.com/gizak/nofancy/323870fa36604dea99124ee29077ea611a520286/images/tn.png)
+![gizak/nofancy](https://raw.githubusercontent.com/gizak/nofancy/9cd8c1f29be39baaf1e8e2f6468f656641174f70/images/tn.png)
 
 ---
 
@@ -213,17 +223,17 @@ The README file serves double purposes. It is used on GitHub as the content for 
 ---
 
 ## [poopshow](https://github.com/esell/poopshow)
-![esell/poopshow](https://raw.githubusercontent.com/esell/poopshow/df4ca78d21d76d5f3b7f82f018cba8134f2f59aa/images/tn.png)
+![esell/poopshow](https://raw.githubusercontent.com/esell/poopshow/459da0109a6a22d77b3275c6c92d9d390ddc09c3/images/tn.png)
 
 ---
 
 ## [purehugo](https://github.com/dplesca/purehugo)
-![dplesca/purehugo](https://raw.githubusercontent.com/dplesca/purehugo/5187c32b799031030b1385982800e79c92b944f8/images/tn.png)
+![dplesca/purehugo](https://raw.githubusercontent.com/dplesca/purehugo/5e059b4130c5ade86f3ebcfa32487bc7df07d28f/images/tn.png)
 
 ---
 
 ## [hugo-redlounge](https://github.com/tmaiaroto/hugo-redlounge)
-![tmaiaroto/hugo-redlounge](https://raw.githubusercontent.com/tmaiaroto/hugo-redlounge/ae4adc13f0c0181b1a834d2a12eacae90cec0e2d/images/tn.png)
+![tmaiaroto/hugo-redlounge](https://raw.githubusercontent.com/tmaiaroto/hugo-redlounge/f6f223881d945c1bcb31d3630ebb8b76a977531c/images/tn.png)
 
 ---
 
@@ -237,8 +247,18 @@ The README file serves double purposes. It is used on GitHub as the content for 
 
 ---
 
+## [simple-hugo](https://github.com/druzza/simple-hugo)
+![druzza/simple-hugo](https://raw.githubusercontent.com/druzza/simple-hugo/7246d24953f244871140a932e5d88ac725e029bd/images/tn.png)
+
+---
+
 ## [hugo-theme-slim](https://github.com/zhe/hugo-theme-slim)
 ![zhe/hugo-theme-slim](https://raw.githubusercontent.com/zhe/hugo-theme-slim/ccdd0de582c4f36a51a05e2cb11c0a5f190cbe49/images/tn.png)
+
+---
+
+## [startbootstrap-clean-blog](https://github.com/humboldtux/startbootstrap-clean-blog)
+![humboldtux/startbootstrap-clean-blog](https://raw.githubusercontent.com/humboldtux/startbootstrap-clean-blog/cbff51828bb5d4485d1b97c470a3b4f0c5a0e5c2/images/tn.png)
 
 ---
 

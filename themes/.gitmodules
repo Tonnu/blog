@@ -100,3 +100,15 @@
 [submodule "material-design"]
 	path = material-design
 	url = https://github.com/pdevty/material-design.git
+[submodule "startbootstrap-clean-blog"]
+	path = startbootstrap-clean-blog
+	url = https://github.com/humboldtux/startbootstrap-clean-blog
+[submodule "simple-hugo"]
+	path = simple-hugo
+	url = https://github.com/druzza/simple-hugo
+[submodule "crisp"]
+	path = crisp
+	url = https://github.com/Zenithar/hugo-theme-crisp
+[submodule "freelancer"]
+	path = freelancer
+	url = https://github.com/digitalcraftsman/hugo-freelancer-theme.git
