@@ -8,8 +8,8 @@ dev:
 build:
   steps:
     - arjen/hugo-build:
-        theme: redLounge
-        flags: --buildDrafts=true --baseUrl=blog.toonverbeek.com
+        theme: redlounge
+        flags: --buildDrafts=true 
 deploy:
   steps:
     - add-to-known_hosts:
