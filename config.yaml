@@ -1,6 +1,0 @@
-params:
-  sidebartitle: Blog
-  sidebartagline: "Bitcoins for nothing and my bits for free"
- - main.menu:
-      name = "Blog"
-      url = "blog.toonverbeek.com"

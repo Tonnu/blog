@@ -1,0 +1,10 @@
+[params]
+    sidebartitle = "Tonnu"
+    sidebartagline = "Bitcoins for nothing and bits for free"
+[[menu.main]]
+    name = "Blog"
+    url = "blog.toonverbeek.com"
+
+[[menu.main]]
+    name = "Home"
+    url = " ../"
