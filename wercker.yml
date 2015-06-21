@@ -1,4 +1,11 @@
 box: phusion/baseimage
+dev:
+  steps:
+    - add-to-known_hosts:
+        hostname: toonverbeek.com
+    - internal/shell:
+        cmd: /bin/bash
+        code: pwd
 build:
   steps:
     - arjen/hugo-build:
@@ -8,7 +15,7 @@ deploy:
   steps:
     - add-to-known_hosts:
         hostname: 188.226.136.184
-        fingerprint: 2d:c1:bc:4c:1a:dd:96:db:af:00:7b:3c:50:df:2e:1c
+        fingerprint: bb:11:56:6a:3e:6d:03:87:f2:7c:70:1e:4e:bf:7a:7a 
     - mktemp:
         envvar: PRIVATEKEY_PATH
     - create-file:
