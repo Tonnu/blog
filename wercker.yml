@@ -1,22 +1,15 @@
 box: phusion/baseimage
 dev:
   steps:
-    - add-to-known_hosts:
-        hostname: 188.226.136.184
-        port: '1992'
-    - internal/shell:
-        cmd: /bin/bash
-        code: pwd
+    - arjen/hugo-build:
+      theme: redLounge
+      flags: --buildDrafts=true
+    - internal/shell
 build:
   steps:
     - arjen/hugo-build:
         theme: redLounge
-        flags: --buildDrafts=true
-    - add-to-known_hosts:
-        hostname: 188.226.136.184
-        port: $PORT
-    - script:
-        code: cat /etc/ssh/ssh_known_hosts
+        flags: --buildDrafts=true --baseUrl=blog.toonverbeek.com
 deploy:
   steps:
     - add-to-known_hosts:
@@ -34,10 +27,5 @@ deploy:
         code: |-
          pwd
          ls -la
-         echo catting ssh_known_hosts
-         cat /etc/ssh/ssh_known_hosts
-         echo catting PRIVATEKEY_PATH
-         echo $PRIVATEKEY_PATH
-         cat $PRIVATEKEY_PATH
          scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@188.226.136.184:/var/www/toonverbeek.com/blog/
           
