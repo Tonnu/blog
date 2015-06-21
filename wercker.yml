@@ -2,7 +2,7 @@ box: phusion/baseimage
 build:
   steps:
     - arjen/hugo-build:
-        theme: redlounge
+        theme: redLounge
         flags: --buildDrafts=true
 deploy:
   steps:
@@ -20,6 +20,10 @@ deploy:
         code: |-
          pwd
          ls -la
+         echo catting ssh_known_hosts
          cat /etc/ssh/ssh_known_hosts
+         echo catting PRIVATEKEY_PATH
+         echo $PRIVATEKEY_PATH
+         cat $PRIVATEKEY_PATH
          scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@toonverbeek.com:/var/www/toonverbeek.com/blog/
           
