@@ -2,7 +2,8 @@ box: phusion/baseimage
 dev:
   steps:
     - add-to-known_hosts:
-        hostname: toonverbeek.com
+        hostname: 188.226.136.184
+        port: '1992'
     - internal/shell:
         cmd: /bin/bash
         code: pwd
@@ -38,5 +39,5 @@ deploy:
          echo catting PRIVATEKEY_PATH
          echo $PRIVATEKEY_PATH
          cat $PRIVATEKEY_PATH
-         scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@toonverbeek.com:/var/www/toonverbeek.com/blog/
+         scp -i $PRIVATEKEY_PATH -P $PORT -r public/* $USER@188.226.136.184:/var/www/toonverbeek.com/blog/
           
