@@ -20,7 +20,6 @@ deploy:
   steps:
     - add-to-known_hosts:
         hostname: 188.226.136.184
-        fingerprint: bb:11:56:6a:3e:6d:03:87:f2:7c:70:1e:4e:bf:7a:7a
         port: $PORT
     - mktemp:
         envvar: PRIVATEKEY_PATH
