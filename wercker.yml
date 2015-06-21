@@ -7,7 +7,8 @@ build:
 deploy:
   steps:
     - add-to-known_hosts:
-        hostname: toonverbeek.com
+        hostname: 188.226.136.184
+        fingerprint: 2d:c1:bc:4c:1a:dd:96:db:af:00:7b:3c:50:df:2e:1c
     - mktemp:
         envvar: PRIVATEKEY_PATH
     - create-file:
